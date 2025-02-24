@@ -1,6 +1,6 @@
 # 2ch/5ch/other View and saver
 
-対象ウェブサイト・ページ情報を簡単に取得し、必要に応じて任意対象項目をリストアップし、保存します。
+対象ウェブサイト・ページ情報を簡単に取得し、必要に応じて任意対象項目をリストアップし、保存するためのOSクロスプラットフォーム用デスクトップアプリです。
 
 ![デスクトップアプリ](https://github.com/howlrs/view5ch/blob/images/public/images/view5ch1.png?raw=true)
 ![出力結果](https://github.com/howlrs/view5ch/blob/images/public/images/view5ch2.png?raw=true)
