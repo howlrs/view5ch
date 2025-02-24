@@ -38,14 +38,14 @@ jobs:
         # webkitgtk 4.0 is for Tauri v1 - webkitgtk 4.1 is for Tauri v2.
         # You can remove the one that doesn't apply to your app to speed up the workflow a bit.
 
+      - name: Install bun
+        uses: oven-sh/setup-bun@v2
+
       - name: setup node
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
-          cache: 'bun' # Set this to npm, yarn or pnpm.
-
-      - name: Install bun
-        uses: oven-sh/setup-bun@v2
+          cache: 'npm' # Set this to npm, yarn or pnpm.
 
       - name: install Rust stable
         uses: dtolnay/rust-toolchain@stable
